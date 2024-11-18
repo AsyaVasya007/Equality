@@ -172,4 +172,9 @@ public class Equality implements ExpressionEvaluator {
             return -1;
         return 0;
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(Expression);
+    }
 }
