@@ -16,7 +16,7 @@ public class Equality implements ExpressionEvaluator {
      *
      * @param str Строка, представляющая математическое выражение.
      */
-    Equality(String str) {
+    public Equality(String str) {
         this.Expression = str;
     }
 
